@@ -1,7 +1,11 @@
 ul{
     list-style: none;
 }
-.back-color{
-    background-color:rgb(175, 215, 229);
+
+ul li{
     width: 380px;
+}
+ul li:nth-child(even){
+
+    background-color: lightblue;
 }

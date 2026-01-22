@@ -3,22 +3,17 @@
 
 function addStudent(name) {
        let li = document.createElement("li");
-         ul.appendChild(li);
+         ul.append(li);
          li.innerHTML=name;
          console.log(name);
 
-         let index = ul.children.length + 1;
-       
-         if (index%2!=0) {
-         li.style.backgroundColor = "rgb(175, 215, 229)";
-        li.style.width="380px"
-         }else{
-        li.style.backgroundColor= "white";
-        }  
+    
+
 }
 addStudent("Anar Musayev");
 addStudent("Rauf Babayev");
 addStudent("Gunay Osmanova");
+
 
 
 
